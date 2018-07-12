@@ -1,16 +1,21 @@
 /* homepage part*/
 
+body:before {
+    content: ' ';
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: url(images/index_background.png) center 0 no-repeat;
+    background-size: cover;
+}
+
 body.homepage {
     font-family: Helvetica, Tahoma, Arial, serif;
-    background: url(images/index_background.png);
-    background-position: center 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    -webkit-background-size: cover;
-    -o-background-size: cover;
-    -moz-background-size: cover;
-    -ms-background-size: cover;
+    background: url(images/index_background.png) no-repeat fixed center 0;
+    z-index: -1;
 }
 
 h1.homepage {
