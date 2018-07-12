@@ -21,6 +21,7 @@ h1.homepage {
     line-height: 5.5rem;
     color: lightgrey;
     text-align: center;
+    position: fixed;
     top:35%;
     left: 0;
     right: 0;
@@ -32,5 +33,6 @@ footer {
     color: lightgrey;
     text-align: center;
     width: 100%;
+    position: fixed;
     bottom: 0;
 }
