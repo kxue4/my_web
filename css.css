@@ -1,10 +1,11 @@
 /* homepage part*/
 
 body.homepage {
-    font-family: "Arial Black",serif;
-    background: url(images/index_background.png) no-repeat fixed;
-    background-size: 100%  100%;
+    font-family: Helvetica, Tahoma, Arial, serif;
+    background: url(images/index_background.png) no-repeat center;
+    background-size: contain;
 }
+
 h1.homepage {
     padding: 6rem 0 6rem;
     max-width: 100%;
