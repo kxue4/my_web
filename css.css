@@ -1,35 +1,26 @@
 /* homepage part*/
 
-body:before {
-    content: ' ';
-    position: fixed;
-    z-index: -1;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    background: url(images/index_background.png) center 0 no-repeat;
-    background-size: cover;
-}
-
 body.homepage {
     font-family: Helvetica, Tahoma, Arial, serif;
     background: url(images/index_background.png) no-repeat fixed center 0;
-    z-index: -1;
+    background-size: cover;
+}
+
+div.homepage {
+    padding: 1.5em 0 1.5em;
+    max-width: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+    top: 40%;
+    position: fixed;
+    display: table;
 }
 
 h1.homepage {
-    padding: 6rem 0 6rem;
-    max-width: 100%;
-    background-color: rgba(0,0,0,0.3);
-    font-size: 5rem;
-    line-height: 5.5rem;
+    font-size: 2.5em;
+    line-height: 1.2em;
     color: lightgrey;
-    text-align: center;
-    position: fixed;
-    top:35%;
-    left: 0;
-    right: 0;
 }
 
 /* universal */
@@ -41,3 +32,5 @@ footer {
     position: fixed;
     bottom: 0;
 }
+
+
